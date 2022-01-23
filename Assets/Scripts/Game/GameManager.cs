@@ -171,7 +171,7 @@ public class GameManager : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false;
 #elif UNITY_WEBPLAYER || UNITY_WEBGL
         // Quitting in the WebGL build: 
-        chrome.windows.onRemoved;
+        Application.OpenURL("http://www.stud.fit.vutbr.cz/~xhrabo15/izhv/");
 #else // !UNITY_WEBPLAYER
         // Quitting in all other builds: 
 #endif
